@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    padding-top: 50px;
+}
+
+header nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 10px;
+    transition: .4s;
+}
+
+nav ul a:hover{
+    border-bottom: 1px solid white;
+}
+
+#hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+
+#hero h2{
+    color: yellow;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#hero h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#hero button{
+    padding: 10px 50px;
+    background: yellow;
+    color: #666;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#planes{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    padding: 120px 0%;
+    text-align: center;
+}
+
+#planes h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#planes p{
+    font-size: 22px;
+}
+
+#planes .fila{
+    width: 100%;
+    display: flex;
+    margin-top: 65px;
+    justify-content: space-around;
+}
+
+#planes article{
+    position: relative;
+
+}
+
+#planes article img{
+    transition: .4s;
+
+}
+
+#planes article img:hover{
+    transform: scale(0.9);
+    border-radius: 50px;
+    
+}
+
+#planes article h3{
+    position: absolute;
+    color: yellow;
+    top: 110px;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#destinos{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background: url("../img/bg-destinos.png");
+    background-size: cover;
+}
+
+#destinos h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#destinos .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#destinos article{
+    margin: 30px 150px;
+}
+
+#destinos h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+#contacto{
+    width: 100%;
+    background: yellow;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 22px;
+
+}
+
+#contacto form{
+    width: 800px;
+    margin: 40px auto;
+}
+
+form .fila{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contacto input{
+    width: 42%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+#contacto select{
+    width: 47.4%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+#contacto button{
+    margin-top: 40px;
+    background: #919109;
+    font-size: 22px;
+    padding: 20px 60px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    padding: 60px 20px;
+    background: black;
+    color: white;
+    text-align: center;
+
+}
